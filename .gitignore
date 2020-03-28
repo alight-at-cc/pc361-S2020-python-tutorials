@@ -1,0 +1,33 @@
+#GIT ignore file for P17 repo
+
+#Ignore grades and confidential info
+grades/*
+student_work/*
+
+#Ignore temporary files
+*~
+*.swp
+*.bak
+*.log
+.ipynb_checkpoints/*
+
+#Ignore compiled python scripts
+*.pyc
+
+#Ignore tex backend files
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+#Ignore static PDFs
+*.pdf
+
+#Ignore startup scripts
+startup/*
+
+#Ignore stupid files
+.DS_STORE*
+
+#Ignore OLD directory
+OLD/*
